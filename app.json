@@ -1,0 +1,16 @@
+{
+  "name": "cocowax",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "urn:buildpack:heroku/python"
+    }
+  ]
+}
